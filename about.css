@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.welcome{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(19, 16, 16);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family:  "Outfit", serif;
+
+}
+.middle{
+    color: white;
+    text-align: center;
+    font-family:  "Outfit", serif;
+
+}
+.bottom{
+    color: white;
+    font-family:  "Outfit", serif;
+    margin-top: 150px;
+}
+body{
+	background-color: rgb(19, 16, 16);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Outfit", serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color:#55D142;
+    color: white;
+}
+nav ul li{
+    padding:0 12px;
+}
+.brand img{
+    width: 55px;
+    padding: 0 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+#c{
+    margin-left: 0px;
+    color: palegreen;
+}
+#name{
+    margin-left: 60px;
+}
+#av{
+    margin-left: 60px;
+    cursor: pointer;
+}
+#about{
+    cursor: pointer;
+}
+#home{
+    cursor: pointer;
+}
+#sp{
+    cursor: pointer;
+    color: #55D142;
+}
+#sp1{
+    cursor: pointer;
+    color: #55D142;
+}
+a{
+   color: white;
+   text-decoration: none;
+}
